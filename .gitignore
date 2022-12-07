@@ -1,0 +1,5 @@
+# ignore all node_modules
+packages/container/node_modules/
+packages/core/node_modules/
+packages/dashboard/node_modules/
+packages/merchants/node_modules/

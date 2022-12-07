@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "type_checking",
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "common/*": ["common/*"]
+    },
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "typeRoots": ["node_modules/@types", "src/types"],
+    "lib": ["es6", "dom"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
